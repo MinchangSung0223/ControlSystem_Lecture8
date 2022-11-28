@@ -1,0 +1,28 @@
+%!TEX root = ../main.tex
+\setcounter{chapter}{7}
+\setcounter{section}{0}
+\section{Digitization}
+\vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{enumerate}
+ \item Most control systems use digital computers (usually microprocessors) to implement the controller. 
+ \item Sampler and A/D Converter, D/A Converter and ZOH (Zeroth-Order Holding), and Clock
+ \item The computation of error signal $e(t)$ and the dynamic compensation $D_c(s)$ can all be accomplished in a digital computer. 
+ \item Difference equation for discrete-time system $\leftrightarrow$ Differential equation for continuous-time system 
+ \item Two basic techniques for finding the difference equations for the digital controller, from $D_c(s)$ to $D_d(z)$ 
+ \begin{itemize}
+  \item Discrete equivalent - section 8.3 
+  \item Discrete design  - section 8.7 
+ \end{itemize} 
+ \item The analog output of the sensor is sampled and converted to a digital number in the analog-to-digital (A/D) converter. (Sampler and ADC)
+ \begin{itemize}
+  \item Conversion from the continuous analog signal $y(t)$ to the discrete digital samples $y(kT)$ occurs repeatedly at instants of time $T$ apart where $T$ is the sample period [$s$] and $1/T$ is the sample rate [$Hz$].
+  \begin{align*}
+   y(t) ~~~~ \rightarrow~~~~~y (k) = y(kT) ~~~~\mbox{with} ~~ t = kT  
+  \end{align*}
+  where $k$ is an integer and $T$ is a fixed value (sample period, or sampling time). 
+  \item The sampled signal is $y(kT)$, where $k$ can take on any integer value. 
+  \item It is often written simply as $y(k)$. We call this type of variable a discrete signal. 
+ \end{itemize}  
+
+\end{enumerate}
+

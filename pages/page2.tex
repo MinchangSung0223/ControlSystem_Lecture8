@@ -1,0 +1,21 @@
+%!TEX root = ../main.tex
+\setcounter{chapter}{7}
+\setcounter{section}{0}
+
+%
+\section{Digitization}
+\vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+
+
+\begin{enumerate}\addtocounter{enumi}{6}
+ \item The D/A converter changes the digital binary number to an analog voltage, and a zeroth-order hold maintains the same voltage throughout the sample period $T$. (DAC and ZOH)
+
+ \begin{itemize}
+  \item Because each value of $u(kT)$ in Fig. 8.1(b) is held constant until the next value is available from the computer, the continuous value of $u(t)$ consists of steps (see Fig. 8.2) that, on average, are delayed from a fit to $u(kT)$ by $T/2$ as shown in the figure. 
+  \item Sample rates should be at least 20 times the bandwidth in order to assure that the digital controller will match the performance of the continuous controller.
+  \item If we simply incorporate this $T/2$ delay into a continuous analysis of the system, an excellent prediction results in, especially, for sample rates much slower than 20 times bandwidth.
+ \end{itemize}
+ \item A system having both discrete and continuous signals is called a `sampled data system'. 
+
+\end{enumerate}
+

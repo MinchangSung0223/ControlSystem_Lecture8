@@ -1,0 +1,38 @@
+%!TEX root = ../main.tex
+\setcounter{chapter}{7}
+\setcounter{section}{0}
+\section{Digitization}
+\vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{enumerate}
+	\setcounter{enumi}{1}
+	\item Generalized function
+
+	\begin{itemize}
+			\centering
+		\item $\delta(t) = 0$ for $ t \neq 0$ 
+		\item $\int_{-\infty}^{\infty} \delta(t) dt = 1$ 
+	\end{itemize}
+\end{enumerate}
+
+$\bigstar$ Unit step function is mathematically defined as:
+\begin{align*}
+	1(t) = \begin{cases}1 & t > 0\\ undefined & t = 0 \\0 & t< 0\end{cases}
+\end{align*}
+In contol theory
+\begin{align*}
+	1(t) = \begin{cases}1 & t \geq 0 \\0 & t< 0\end{cases}
+\end{align*}
+
+
+
+$\bigstar$ Useful Properties
+ \begin{enumerate}
+ 	\item $\frac{d1(t)}{dt} = \delta(t) $ (수학적으로는 틀림, 개념적으로 사용)
+ 	\item $x(t)\delta(t-kT) = x(kT)\delta(t-kT)$
+ 	\item $\int_{-\infty}^{\infty} x(t) \delta(t-kT) dt= x(kT)$\\
+		$ \because \int_{-\infty}^{\infty} x(t) \delta(t-kT)dt =\int_{-\infty}^{\infty} x(kT) \delta(t-kT) dt=x(kT)\int_{-\infty}^{\infty} \delta(t-kT) dt=x(kT)$
+ 	
+ 
+ \end{enumerate}
+
+

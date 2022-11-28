@@ -1,0 +1,18 @@
+%!TEX root = ../main.tex
+\setcounter{chapter}{7}
+\setcounter{section}{0}
+\section{Digitization}
+\vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+$\bigstar$ Nyquist–Shannon Sampling Theorem
+\begin{enumerate}
+	\item 간단하게, 아날로그 신호가 갖는 최대 주파수의 2배이상의 샘플링 주파수를 사용해야만 손실되는 정보없이 디지털 신호를 아날로그 신호로 복원할 수 있다.
+	\item Nyquist freqeuncy(Folding Frequency): Sampling Frequency $F_s$의 절반 $F_{nyquist}=F_s/2$이며, 이는 신호의 최대 주파수 $F_{nyquist} \geq F_{max} $ 이어야 신호를 복원 할 수 있다. 
+	\item Frequency Domain Analysis:
+	\begin{align*}
+	    \text{time-domain}& &&&&\text{frequency-domain}\\
+		y_s(t) = y(t)\cdot p(t) & & \leftrightarrow & &Y_{s}(F) = &Y(F) \ast P(F) \\
+		&&&&=& Y(F) \ast \frac{1}{T} \sum_{k =-\infty}^{\infty}\delta(F-kF_s)\\
+		&&&&=& \frac{1}{T} \sum_{k =-\infty}^{\infty} Y(F-kF_{s})
+	\end{align*}
+\end{enumerate}
+

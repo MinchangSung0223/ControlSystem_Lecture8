@@ -1,0 +1,38 @@
+%!TEX root = ../main.tex
+\setcounter{chapter}{7}
+\setcounter{section}{1}
+\section{Dynamic Analysis of Discrete Systems}
+\vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+
+\begin{table}[!hb]
+\centering
+\begin{tabular}{@{}|c|c|c|@{}}
+\toprule
+Condition                           & Discrete-Time                   & Continuous-Time   \\ \midrule
+Periodic Signal                     & Discrete Fourier Series         & Fourier Series    \\ \midrule
+Absolute Summable/Integrable Signal & Discrete-Time Fourier Transform & Fourier Transform \\ \midrule
+Causal Signal                       & Unilateral $z$-Transfrom          & Unilateral Laplace Transform \\ \bottomrule
+\end{tabular}
+\end{table}
+\begin{itemize}
+	\item $z$-transform for discrete time systems $\leftrightarrow$ Laplace transform for continuous time systems. 
+\item (8.2.1) $z$-Transform 
+	\begin{enumerate}
+		\item Laplace transform and its important property 
+		\begin{align*}
+			\mathcal{L} (f(t))&= F(s) = \int_{0^-}^{\infty} f(t) e^{-st} dt 
+			&&&
+			\mathcal{L}(\dot{f}(t)) &= sF(s) -f(0^{-})\\
+			&&\Downarrow&
+			\\
+						\mathcal{L} (f(t))&= F(s) = \int_0^{\infty} f(t) e^{-st} dt 
+			&&&
+			\mathcal{L}(\dot{f}(t)) &= sF(s) \text{ } \text{ where $f(0^+) = 0$}
+		\end{align*}
+		$0^{-}$부터인 이유는 $f(t)$가 $\delta(t)$나 $\frac{d\delta(t)}{dt}$일때 Laplace Transform에 반영하기 위함, 이해를 돕기위해 정확한 정의는 아니지만 아래와 같은 정의 사용
+	\end{enumerate}	
+\end{itemize}
+
