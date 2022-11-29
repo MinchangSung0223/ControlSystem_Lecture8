@@ -1,5 +1,22 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{1}
+\section{Dynamic Analysis of Discrete Systems}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+
+
+				\begin{align*}
+							\mathcal{Z}(1-e^{-akT}) &= \mathcal{Z}(1) - \mathcal{Z}(e^{-akT}) = \frac{1}{1-z^{-1} } -  \frac{1}{1-e^{-aT}z^{-1}}\\
+							                        & = \frac{z^{-1}-e^{-aT}z^{-1}}{(1-z^{-1})(1-e^{-aT}z^{-1})} =  \frac{z^{-1}(1-e^{-aT})}{(1-z^{-1})(1-e^{-aT}z^{-1})} \\
+				\end{align*}
+				\begin{align*}
+					\mathcal{Z}(\cos(-akT))  &= \mathcal{Z}(\frac{e^{jakT}+e^{-jakT}}{2}) =\frac{\mathcal{Z}(e^{jakT})}{2} +\frac{\mathcal{Z}(e^{-jakT})}{2}  \\
+					 & = \frac{1}{2} \cdot \frac{1}{1-e^{jaT}z^{-1}}  + \frac{1}{2} \cdot \frac{1}{1-e^{-jaT}z^{-1}} \\
+					 & = \frac{(1- z^{-1}\cos aT )}{1-(2\cos aT)z^{-1} +z^{-2}}
+				\end{align*}
+
+				\begin{align*}
+					\mathcal{Z}(\sin(-akT)) = ? , \mathcal{Z}(\sinh(-akT)) = ? , \mathcal{Z}(\cosh(-akT))= ?
+				\end{align*}
+
+	

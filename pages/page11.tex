@@ -4,17 +4,17 @@
 \section{Dynamic Analysis of Discrete Systems}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
 
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
 
-\begin{table}[!hb]
+\begin{table}[!h]
 \centering
-\begin{tabular}{@{}|c|c|c|@{}}
-\toprule
-Condition                           & Discrete-Time                   & Continuous-Time   \\ \midrule
-Periodic Signal                     & Discrete Fourier Series         & Fourier Series    \\ \midrule
-Absolute Summable/Integrable Signal & Discrete-Time Fourier Transform & Fourier Transform \\ \midrule
-Causal Signal                       & Unilateral $z$-Transfrom          & Unilateral Laplace Transform \\ \bottomrule
+
+\begin{tabular}{|cccc|}
+\hline
+
+\multicolumn{2}{|c|}{Continuous-Time}                                      & \multicolumn{2}{c|}{Discrete-Time}   \\ \hline
+\multicolumn{1}{|c|}{periodic}              & \multicolumn{1}{c|}{Discrete Fourier Series}         & \multicolumn{1}{c|}{periodic}            & Fourier Series    \\ \hline
+\multicolumn{1}{|c|}{absolutely integrable} & \multicolumn{1}{c|}{Discrete-Time Fourier Transform} & \multicolumn{1}{c|}{absolutely summable} & Fourier Transform \\ \hline
+\multicolumn{1}{|c|}{causal}                & \multicolumn{1}{c|}{z-Transform}                     & \multicolumn{1}{c|}{causal}              & Laplace Transform \\ \hline
 \end{tabular}
 \end{table}
 \begin{itemize}

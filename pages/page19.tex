@@ -1,5 +1,30 @@
 %!TEX root = ../main.tex
+
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{1}
+\section{Dynamic Analysis of Discrete Systems}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{itemize}
+\item (8.2.3) Relationship between $s$ and $z$ 
+\begin{enumerate}
+		\item Consider the continuous signal of 
+		\begin{align*}
+			f(t) &= e^{-at} ~~~~~ t >0  ~~~~~ \rightarrow ~~~~~  F(s) = \frac{1}{s+a}
+		\end{align*}
+		and it corresponds to a pole $s=-a$. 
+		\item Consider the discrete signal of 
+		\begin{align*}
+			f(kT) &= e^{-akT}  ~~~~~ \rightarrow ~~~~~  F(z) =  \frac{1}{1-e^{-aT}z^{-1}} = \frac{z}{z-e^{-aT}}
+		\end{align*}
+		and it corresponds to a pole $z=e^{-aT}$. 
+		\item The equivalent characteristics in the $z$-plane are related to those in the $s$-plane by the expression
+		\begin{align*}
+			z &= e^{sT}\\
+			&= e^{-aT +jbT} = e^{-aT} (\cos bT + j \sin b) \\
+			&= e^{-\sigma T} (\cos \omega_d T + j \sin \omega_d T ) \\
+			&= e^{-\zeta \omega_n T} (\cos \omega_n \sqrt{1-\zeta^2} T + j \sin \omega_n \sqrt{1-\zeta^2} T )
+		\end{align*}
+		where $T$ is the sample period, and $s = -\sigma  + j \omega_d = -\zeta \omega_n + j \omega_n \sqrt{1-\zeta^2} $
+	\end{enumerate}
+\end{itemize}
+

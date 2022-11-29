@@ -1,12 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.8)  28 NOV 2022 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.8)  29 NOV 2022 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"C:/Users/wdrac/OneDrive/바탕 화면/제어시스템설계_강의자료(202
-2-2)/제어시스템설계_강의자료(2022-2)/smc/main.tex"
-
-(C:/Users/wdrac/OneDrive/바탕 화면/제어시스템설계_강의자료(2022-
-2)/제어시스템설계_강의자료(2022-2)/smc/main.tex
+**C:/Users/wdrac/OneDrive/문서/GitHub/ControlSystem_Lecture8/main.tex
+(C:/Users/wdrac/OneDrive/문서/GitHub/ControlSystem_Lecture8/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-29>
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/kotex-oblivoir\oblivoir
@@ -787,42 +784,63 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
+Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
+\At@ViperColsBreak=\toks34
+\preCutedStrip=\toks35
+\postCutedStrip=\toks36
+\cuted@@tempbox@a=\box60
+\cuted@@tempbox@c=\box61
+\cuted@@tempbox@var=\box62
+\hold@viper=\box63
+\@viper=\box64
+\cuted@@varbox@a=\box65
+\cuted@@varbox@c=\box66
+\cuted@@tempdim@spread=\dimen267
+\cuted@@tempdim@a=\dimen268
+\cuted@@tempdim@b=\dimen269
+\ht@hold@viper=\dimen270
+\ht@viper=\dimen271
+\var@@pagediscards@ht=\dimen272
+\stripsep=\skip258
+\viper@penalty=\count341
 )
 LaTeX Font Info:    Trying to load font information for OT1+pnc on input line 1
-7.
- (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pnc.fd
+8.
+
+(C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pnc.fd
 File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
 )
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 18.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
-ne 17.
+ne 18.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/nanumtype1\lucnanummj.f
 d
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
    defining Unicode char U+00B7 (decimal 183)
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/kotex-oblivoir/memhangu
@@ -831,7 +849,7 @@ Package: memucs-gremph
 LaTeX Info: Redefining \itshape on input line 74.
 LaTeX Info: Redefining \slshape on input line 78.
 )
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 18.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -843,14 +861,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count341
+\c@section@level=\count342
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 17.
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -859,17 +877,17 @@ LaTeX Info: Redefining \nameref on input line 17.
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count342
-\scratchdimen=\dimen267
-\scratchbox=\box60
-\nofMPsegments=\count343
-\nofMParguments=\count344
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count345
-\MPscratchDim=\dimen268
-\MPnumerator=\count346
-\makeMPintoPDFobject=\count347
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count343
+\scratchdimen=\dimen273
+\scratchbox=\box67
+\nofMPsegments=\count344
+\nofMParguments=\count345
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count346
+\MPscratchDim=\dimen274
+\MPnumerator=\count347
+\makeMPintoPDFobject=\count348
+\everyMPtoPDFconversion=\toks38
 )
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -913,7 +931,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-1.png, id=70, 544.9158pt x 397.0032pt>
+<./FIG_Franklin/fig8-1.png, id=112, 544.9158pt x 397.0032pt>
 File: ./FIG_Franklin/fig8-1.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-1.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-1.png  used on input line 8.
@@ -925,7 +943,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc1.png, id=77, 835.047pt x 532.17pt>
+<./FIG_Franklin/fig8-smc1.png, id=119, 835.047pt x 532.17pt>
 File: ./FIG_Franklin/fig8-smc1.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc1.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc1.png  used on input line 14.
@@ -937,7 +955,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc2.png, id=83, 806.577pt x 303.096pt>
+<./FIG_Franklin/fig8-smc2.png, id=125, 806.577pt x 303.096pt>
 File: ./FIG_Franklin/fig8-smc2.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc2.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc2.png  used on input line 16.
@@ -955,7 +973,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc3.png, id=125, 528.009pt x 342.954pt>
+<./FIG_Franklin/fig8-smc3.png, id=167, 528.009pt x 342.954pt>
 File: ./FIG_Franklin/fig8-smc3.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc3.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc3.png  used on input line 10.
@@ -973,7 +991,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc4.png, id=169, 927.903pt x 482.457pt>
+<./FIG_Franklin/fig8-smc4.png, id=211, 927.903pt x 482.457pt>
 File: ./FIG_Franklin/fig8-smc4.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc4.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc4.png  used on input line 8.
@@ -986,24 +1004,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc5.png, id=175, 737.154pt x 475.449pt>
+<./FIG_Franklin/fig8-smc5.png, id=217, 737.154pt x 475.449pt>
 File: ./FIG_Franklin/fig8-smc5.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc5.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc5.png  used on input line 9.
 (pdftex.def)             Requested size: 682.86613pt x 440.44362pt.
 ) [10 <./FIG_Franklin/fig8-smc5.png>]
-(pages/page11.tex
-Overfull \hbox (30.26498pt too wide) in paragraph at lines 12--19
- [][] 
- []
-
-) [11] (pages/page12.tex
-pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
+(pages/page11.tex) [11] (pages/page12.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4 \section{Digitization}
-                          
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
@@ -1013,79 +1026,184 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[12]) [13] (pages/page13.tex
+) [12] (pages/page13.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  ) [13] (pages/page14.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  ) [14] (pages/page15.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  ) [15] (pages/page16.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  ) [16] (pages/page17.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  ) [17] (pages/page18.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  ) [18] (pages/page19.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \section{Dynamic Analysis of Discrete Systems}
+                                                  ) [19] (pages/page20.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  
+<./FIG_Franklin/fig8-4.png, id=284, 615.2586pt x 397.0032pt>
+File: ./FIG_Franklin/fig8-4.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-4.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-4.png  used on input line 11.
+(pdftex.def)             Requested size: 284.52756pt x 183.59293pt.
+ [20 <./FIG_Franklin/fig8-4.png>]
+<./FIG_Franklin/fig8-5.png, id=295, 462.528pt x 397.0032pt>
+File: ./FIG_Franklin/fig8-5.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-5.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-5.png  used on input line 32.
+(pdftex.def)             Requested size: 398.33858pt x 341.92494pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [21] (pages/page21.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  ) [22 <./FIG_Franklin/fig8-5.
+png>] (pages/page22.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  ) [23] (pages/page23.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Digitization}
-                           [14]) [15] (pages/page14.tex
+                          ) [24] (pages/page24.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Digitization}
-                          ) [16] (main.aux)
+                          ) [25] (pages/page25.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Digitization}
+                          ) [26] (pages/page26.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Digitization}
+                          ) [27] (pages/page27.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Digitization}
+                          ) [28] (pages/page28.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Digitization}
+                          ) [29] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A6F0F0DC6626DE1CFD0C8F4D865E9CF6;1607.
+(rerunfilecheck)             Checksum: D7C7552F9F1682B6A8925E4F4E3AF52A;4543.
  ) 
 Here is how much of TeX's memory you used:
- 15805 strings out of 478619
- 254475 string characters out of 2843246
- 573370 words of memory out of 3000000
- 33550 multiletter control sequences out of 15000+600000
- 485864 words of font info for 81 fonts, out of 8000000 for 9000
+ 16012 strings out of 478619
+ 257229 string characters out of 2843246
+ 580172 words of memory out of 3000000
+ 33678 multiletter control sequences out of 15000+600000
+ 487678 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,13n,107p,569b,577s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 105i,16n,107p,500b,667s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmmi10.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmmi12.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/wdrac/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wdrac/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wdrac/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/User
-s/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmac.
-pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1
-/nanummjmad.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/nanumtype1/nanummjmae.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/nanumtype1/nanummjmb0.pfb><C:/Users/wdrac/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/nanumtype1/nanummjmb1.pfb><C:/Users/wdrac/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb2.pfb><C:/Users/wdrac
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb3.pfb><C:
-/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanumm
-jmb4.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanum
-type1/nanummjmb5.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/nanumtype1/nanummjmb7.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/nanumtype1/nanummjmb8.pfb><C:/Users/wdrac/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb9.pfb><C:/Users/wdrac/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmba.pfb><C:/Users/
-wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmbc.pf
-b><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/n
-anummjmbd.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-nanumtype1/nanummjmc0.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/nanumtype1/nanummjmc1.pfb><C:/Users/wdrac/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/nanumtype1/nanummjmc2.pfb><C:/Users/wdrac/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc5.pfb><C:/Users/wdrac/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc6.pfb><C:/U
-sers/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjm
-c7.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumty
-pe1/nanummjmc8.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/nanumtype1/nanummjmc9.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/nanumtype1/nanummjmcd.pfb><C:/Users/wdrac/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd1.pfb><C:/Users/wdrac/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd2.pfb><C:/Users/wd
-rac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd3.pfb>
+e1/public/amsfonts/cm/cmmi7.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/wdrac/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/wdrac/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/wdrac/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wdrac
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Use
+rs/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam
+10.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumty
+pe1/nanummjmac.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/nanumtype1/nanummjmad.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/nanumtype1/nanummjmae.pfb><C:/Users/wdrac/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb0.pfb><C:/Users/wdrac/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb1.pfb><C:/Users/wd
+rac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb2.pfb>
 <C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nan
-ummjmd5.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/na
-numtype1/nanummjmd6.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/urw/ncntrsbk/uncb8a.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/
-type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on main.pdf (16 pages, 13947789 bytes).
+ummjmb3.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/na
+numtype1/nanummjmb4.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/nanumtype1/nanummjmb5.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/nanumtype1/nanummjmb7.pfb><C:/Users/wdrac/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb8.pfb><C:/Users/wdrac/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb9.pfb><C:/Use
+rs/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmba
+.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype
+1/nanummjmbc.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/nanumtype1/nanummjmbd.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/font
+s/type1/public/nanumtype1/nanummjmc0.pfb><C:/Users/wdrac/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc1.pfb><C:/Users/wdrac/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc2.pfb><C:/Users/wdra
+c/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc5.pfb><C
+:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanum
+mjmc6.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanu
+mtype1/nanummjmc7.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/nanumtype1/nanummjmc8.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/nanumtype1/nanummjmc9.pfb><C:/Users/wdrac/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/nanumtype1/nanummjmcd.pfb><C:/Users/wdrac/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd1.pfb><C:/Users
+/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd2.p
+fb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/
+nanummjmd3.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/nanumtype1/nanummjmd4.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/nanumtype1/nanummjmd5.pfb><C:/Users/wdrac/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/nanumtype1/nanummjmd6.pfb><C:/Users/wdrac/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/wdrac/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/wdrac/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on main.pdf (29 pages, 14790866 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 

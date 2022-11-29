@@ -1,5 +1,30 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{1}
+\section{Dynamic Analysis of Discrete Systems}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{itemize}
+\item (8.2.2) $z$-Transform Inversion
+	\begin{enumerate}
+
+
+		\item A $z$-transform inversion technique that has no continuous counterpart is called `long division'. For example, consider a first-order discrete system 
+		\begin{align*}
+			y(k) = \alpha y(k-1) + u(k) ~~~~\rightarrow~~~~~ Y(z) = \alpha z^{-1}Y(z)+U(z)  ~~~~\rightarrow~~~~~  \frac{Y(z)}{U(z)} = \frac{1}{1-\alpha z^{-1}}
+		\end{align*} 
+		For a unit-pulse input, its $z$-transform is 
+		\begin{align*}
+			U(z) = \mathcal{Z}(\delta(kT)) = 1 
+		\end{align*}
+		so the long division becomes 
+		\begin{align*}
+			Y(z) &= \frac{1}{1-\alpha z^{-1}} \\
+			&= 1 + \alpha z^{-1} + \alpha^2 z^{-2} + \alpha^3 z^{-3}  \cdots  		
+		\end{align*}
+
+		We see that the sampled time history of $y$ is
+		\begin{align*}
+			y(0) &= 1 &&& y(1) &= \alpha &&& y(2) &= \alpha^2 &&& y(3) &= \alpha^3 ~~~~\cdots 
+		\end{align*}
+	\end{enumerate}		
+\end{itemize}

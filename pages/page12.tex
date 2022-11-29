@@ -1,7 +1,7 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{1}
+\section{Dynamic Analysis of Discrete Systems}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
 
 	\begin{enumerate}	
@@ -33,16 +33,5 @@
 		\begin{align*}
 			z = e^{sT} ~~~~ \leftrightarrow~~~~ s = \frac{1}{T} \ln z  
 		\end{align*}
-		\item For example, the general second-order difference equation 
-		\begin{align*}
-			y(k) = -a_1 y(k-1) - a_2 y(k-2) + b_0 u(k) + b_1 u(k-1) + b_2 u(k-2) 
-		\end{align*}
-		can be converted from this form to the $z$-transform of the variables $y(k)$ and $u(k)$ by invoking above relations,
-		\begin{align*}
-			Y(z) = (-a_1 z^{-1} - a_2 z^{-2}) Y(z) + (b_0 + b_1 z^{-1} + b_2 z^{-2}) U(z) 
-		\end{align*}
-		now we have a discrete transfer function:
-		\begin{align*}
-			\frac{Y(z)}{U(z)} = \frac{b_0 + b_1 z^{-1} + b_2 z^{-2}}{1 + a_1 z^{-1} + a_2 z^{-2}} 
-		\end{align*}
+
 	\end{enumerate}	

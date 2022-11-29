@@ -1,5 +1,35 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{1}
+\section{Dynamic Analysis of Discrete Systems}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+
+
+	\begin{enumerate}
+		\setcounter{enumi}{2}
+		\item $z$-Transform Property
+		\begin{itemize}
+			\item Linearity : 
+				\begin{align*}
+					\alpha x_1(k) + \beta x_2(k) &&\leftrightarrow&&   \alpha X_1(z) + \beta X_2(z)
+				\end{align*}
+			\item Time-shift : 
+				\begin{align*}
+					x(k-k_0) &&\leftrightarrow&&   z^{-k_0} X(z)
+				\end{align*}		
+			\item Multiplication by $k$ : 
+				\begin{align*}
+					k x(k) &&\leftrightarrow&&   -z\frac{dX(z)}{dz}
+				\end{align*}		
+			\item Multiplication by $a^{k}$: 
+				\begin{align*}
+					a^{k}x(k) &&\leftrightarrow&&   X(\frac{z}{a})
+				\end{align*}						
+			\item Multiplication by $e^{-akT}$: 
+				\begin{align*}
+					e^{-akT} x(k) &&\leftrightarrow&& X(e^{aT}z)
+				\end{align*}		
+			\end{itemize}				
+
+	\end{enumerate}
+
