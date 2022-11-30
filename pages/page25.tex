@@ -1,5 +1,23 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{2}
+\section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{enumerate}
+	\setcounter{enumi}{3}
+		\item For $D_c(s) = \frac{a}{s+a}$ as an example, we have 
+		\begin{align*}
+		    D_c(s) &= \frac{a}{s+a}\\
+			D_d(z) &=  \frac{a}{s+a} |_{s =\frac{2}{T} \frac{1-z^{-1}}{1+z^{-1}} }\\
+			       &= \frac{a}{\frac{2}{T} \frac{1-z^{-1}}{1+z^{-1}}+a} \\
+			       &= \frac{aT(1+z^{-1})}{2(1-z^{-1}) + aT (1+z^{-1})} \\
+			       &= \frac{aT(1+z^{-1})}{(2+aT) - (2-aT)z^{-1}} \\
+			\\
+			D_d(z) &= \frac{U(z)}{E(z)} = \frac{aT(1+z^{-1})}{(2+aT) - (2-aT)z^{-1}}\\
+			U(z) &= \frac{aT(1+z^{-1})}{(2+aT) - (2-aT)z^{-1}} E(z)\\
+			((2+aT) - (2-aT)z^{-1})U(z) &= (aT(1+z^{-1})E(z)\\
+			(2+aT) u(k) - (2-aT) u(k-1) &= aT [ e(k) + e(k-1) ]  \\
+			\therefore~~~~~
+			u(k) &= \frac{(2-aT)}{(2+aT)} u(k-1) + \frac{aT}{(2+aT)} [ e(k) + e(k-1) ] 
+		\end{align*}
+\end{enumerate}

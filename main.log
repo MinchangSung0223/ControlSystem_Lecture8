@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.8)  29 NOV 2022 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.8)  30 NOV 2022 19:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -784,7 +784,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
-) (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 18.
+ (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
 Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
 \At@ViperColsBreak=\toks34
 \preCutedStrip=\toks35
@@ -805,7 +807,7 @@ Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
 \stripsep=\skip258
 \viper@penalty=\count341
 )
-LaTeX Font Info:    Trying to load font information for OT1+pnc on input line 1
+LaTeX Font Info:    Trying to load font information for OT1+pnc on input line 2
 8.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pnc.fd
@@ -814,33 +816,33 @@ File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 28.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
-ne 18.
+ne 28.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/nanumtype1\lucnanummj.f
 d
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
    defining Unicode char U+00B7 (decimal 183)
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/kotex-oblivoir/memhangu
@@ -849,7 +851,7 @@ Package: memucs-gremph
 LaTeX Info: Redefining \itshape on input line 74.
 LaTeX Info: Redefining \slshape on input line 78.
 )
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring ON on input line 28.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -865,10 +867,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 18.
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -931,7 +933,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-1.png, id=112, 544.9158pt x 397.0032pt>
+<./FIG_Franklin/fig8-1.png, id=143, 544.9158pt x 397.0032pt>
 File: ./FIG_Franklin/fig8-1.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-1.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-1.png  used on input line 8.
@@ -943,7 +945,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc1.png, id=119, 835.047pt x 532.17pt>
+<./FIG_Franklin/fig8-smc1.png, id=150, 835.047pt x 532.17pt>
 File: ./FIG_Franklin/fig8-smc1.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc1.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc1.png  used on input line 14.
@@ -955,7 +957,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc2.png, id=125, 806.577pt x 303.096pt>
+<./FIG_Franklin/fig8-smc2.png, id=156, 806.577pt x 303.096pt>
 File: ./FIG_Franklin/fig8-smc2.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc2.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc2.png  used on input line 16.
@@ -973,7 +975,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc3.png, id=167, 528.009pt x 342.954pt>
+<./FIG_Franklin/fig8-smc3.png, id=198, 528.009pt x 342.954pt>
 File: ./FIG_Franklin/fig8-smc3.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc3.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc3.png  used on input line 10.
@@ -991,7 +993,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc4.png, id=211, 927.903pt x 482.457pt>
+<./FIG_Franklin/fig8-smc4.png, id=242, 927.903pt x 482.457pt>
 File: ./FIG_Franklin/fig8-smc4.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc4.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc4.png  used on input line 8.
@@ -1004,7 +1006,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc5.png, id=217, 737.154pt x 475.449pt>
+<./FIG_Franklin/fig8-smc5.png, id=248, 737.154pt x 475.449pt>
 File: ./FIG_Franklin/fig8-smc5.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc5.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc5.png  used on input line 9.
@@ -1075,79 +1077,164 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
                    \relax 
 l.4 \section{Dynamic Analysis of Discrete Systems}
                                                   
-<./FIG_Franklin/fig8-4.png, id=284, 615.2586pt x 397.0032pt>
+<./FIG_Franklin/fig8-4.png, id=315, 615.2586pt x 397.0032pt>
 File: ./FIG_Franklin/fig8-4.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-4.png>
-Package pdftex.def Info: ./FIG_Franklin/fig8-4.png  used on input line 11.
-(pdftex.def)             Requested size: 284.52756pt x 183.59293pt.
- [20 <./FIG_Franklin/fig8-4.png>]
-<./FIG_Franklin/fig8-5.png, id=295, 462.528pt x 397.0032pt>
-File: ./FIG_Franklin/fig8-5.png Graphic file (type png)
-<use ./FIG_Franklin/fig8-5.png>
-Package pdftex.def Info: ./FIG_Franklin/fig8-5.png  used on input line 32.
-(pdftex.def)             Requested size: 398.33858pt x 341.92494pt.
+Package pdftex.def Info: ./FIG_Franklin/fig8-4.png  used on input line 12.
+(pdftex.def)             Requested size: 199.16928pt x 128.51566pt.
+ [20 <./FIG_Franklin/fig8-4.png>]) [21] (pages/page21.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Dynamic Analysis of Discrete Systems}
+                                                  ) [22] (pages/page22.tex)
+[23] (pages/page23.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               
+<./FIG_Franklin/fig8-7.png, id=348, 650.43pt x 326.1786pt>
+File: ./FIG_Franklin/fig8-7.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-7.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-7.png  used on input line 23.
+(pdftex.def)             Requested size: 227.62204pt x 114.14928pt.
+) [24 <./FIG_Franklin/fig8-7.png>] (pages/page24.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [25] (pages/page25.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [26] (pages/page26.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [27] (pages/page27.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               
+<./FIG_Franklin/fig8-smc6.png, id=372, 773.89125pt x 542.025pt>
+File: ./FIG_Franklin/fig8-smc6.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-smc6.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-smc6.png  used on input line 9.
+(pdftex.def)             Requested size: 569.05511pt x 398.5614pt.
+) [28 <./FIG_Franklin/fig8-smc6.png>] (pages/page28.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [29] (pages/page29.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               
+<./FIG_Franklin/fig8-smc7.png, id=386, 1550.52pt x 713.502pt>
+File: ./FIG_Franklin/fig8-smc7.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-smc7.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-smc7.png  used on input line 9.
+(pdftex.def)             Requested size: 569.05511pt x 261.85773pt.
+) [30 <./FIG_Franklin/fig8-smc7.png>] (pages/page30.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               
+<./FIG_Franklin/fig8-smc8.png, id=392, 954.84pt x 590.862pt>
+File: ./FIG_Franklin/fig8-smc8.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-smc8.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-smc8.png  used on input line 8.
+(pdftex.def)             Requested size: 654.41338pt x 404.96342pt.
+) [31 <./FIG_Franklin/fig8-smc8.png>] (pages/page31.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [32] (pages/page32.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                                [33]) [34] (pages/page33.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               
+<./FIG_Franklin/fig8-smc9.png, id=412, 802.49812pt x 542.025pt>
+File: ./FIG_Franklin/fig8-smc9.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-smc9.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-smc9.png  used on input line 9.
+(pdftex.def)             Requested size: 569.05511pt x 384.37727pt.
+) [35 <./FIG_Franklin/fig8-smc9.png>] (pages/page34.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [36] (pages/page35.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [37] (pages/page36.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [38] (pages/page37.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               
+<./FIG_Franklin/fig8-14.png, id=439, 444.2196pt x 412.4208pt>
+File: ./FIG_Franklin/fig8-14.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-14.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-14.png  used on input line 30.
+(pdftex.def)             Requested size: 227.62204pt x 211.33241pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [21] (pages/page21.tex
-pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
+) [39] (pages/page38.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4 \section{Dynamic Analysis of Discrete Systems}
-                                                  ) [22 <./FIG_Franklin/fig8-5.
-png>] (pages/page22.tex
-pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.4 \section{Dynamic Analysis of Discrete Systems}
-                                                  ) [23] (pages/page23.tex
-pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.4 \section{Digitization}
-                          ) [24] (pages/page24.tex
-pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.4 \section{Digitization}
-                          ) [25] (pages/page25.tex
-pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.4 \section{Digitization}
-                          ) [26] (pages/page26.tex
-pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.4 \section{Digitization}
-                          ) [27] (pages/page27.tex
-pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.4 \section{Digitization}
-                          ) [28] (pages/page28.tex
-pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.4 \section{Digitization}
-                          ) [29] (main.aux)
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [40 <./FIG_Franklin/fig8-14.pn
+g>] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D7C7552F9F1682B6A8925E4F4E3AF52A;4543.
+(rerunfilecheck)             Checksum: 2DEAB4770A330B56975B1E60036C8708;7409.
  ) 
 Here is how much of TeX's memory you used:
- 16012 strings out of 478619
- 257229 string characters out of 2843246
- 580172 words of memory out of 3000000
- 33678 multiletter control sequences out of 15000+600000
+ 16130 strings out of 478619
+ 259951 string characters out of 2843246
+ 580179 words of memory out of 3000000
+ 33730 multiletter control sequences out of 15000+600000
  487678 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,16n,107p,500b,667s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1201,9 +1288,9 @@ iKTeX/fonts/type1/public/nanumtype1/nanummjmd6.pfb><C:/Users/wdrac/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/wdrac/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/wdrac/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (29 pages, 14790866 bytes).
+Output written on main.pdf (40 pages, 15787843 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 385 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 650 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 490 words of extra memory for PDF output out of 10000 (max. 10000000)
 

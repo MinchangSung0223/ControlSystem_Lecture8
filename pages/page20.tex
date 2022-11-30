@@ -6,9 +6,11 @@
 	\begin{enumerate}
 		\setcounter{enumi}{3}
 \item See Fig. 8.4, and it shows the mapping of lines of constant damping $\zeta$ and natural frequency $\omega_n$ from $s$-plane to the upper half of the $z$-plane, using $z = e^{sT}$. 
+
 		\begin{figure}[h]
 		    \centering
-			\includegraphics[width=10cm]{./FIG_Franklin/fig8-4.png}
+			\includegraphics[width=7cm]{./FIG_Franklin/fig8-4.png}\\
+			\url{http://controlsystemsacademy.com/0003/0003.html}
 		\end{figure}
 		\begin{enumerate}
 			\item The stability boundary $s= 0 \pm j\omega$ becomes the unit circle $|z| =1$ in the $z$-plane; inside the unit circle is stable, outside is unstable\\
@@ -27,8 +29,5 @@
 			\item Frequencies greater than $\omega_s/2$, called the Nyquist frequency, appear in the $z$-plane on the top of corresponding lower frequencies because of the circular characteristics of $e^{sT}$. This overlap is called \emph{aliasing} or folding.  
 		\end{enumerate} 
 		\item As a result, it is necessary to sample at least twice as fast as a signal's highest frequency component in order to represent that signal with the samples. 
-		\item The figure sketches time responses that would result from poles at the indicated locations.
-		\begin{figure}[h]
-			\includegraphics[width=14cm]{./FIG_Franklin/fig8-5.png}
-		\end{figure}
+
 	\end{enumerate}

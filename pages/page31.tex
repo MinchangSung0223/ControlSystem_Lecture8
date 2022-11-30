@@ -1,5 +1,13 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{2}
+\section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+
+\begin{align*}
+	d_d(t) &=d_c(t) ( \sum_{k=0}^{\infty}u(t-kT)-u(t-(k+1)T)) &= \sum_{k=0}^{\infty}d_c(t)u(t-kT)-\sum_{k=0}^{\infty}d_c(t)u(t-(k+1)T)\\
+		   &= d_c(t) \ast u(t) - d_c(t) \ast u(t-T) \\
+    D_d(z) &= \mathcal{Z}(D_c(s)\cdot (\frac{1}{s} -e^{-sT}\frac{1}{s} )) &\\
+           &= \mathcal{Z}((1-e^{-sT})\frac{D_c(s)}{s})&\\
+           &= (1-z^{-1})\mathcal{Z}(\frac{D_c(s)}{s}) ~~~~~~~ (\because z = e^{sT})&\\
+\end{align*}

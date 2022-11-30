@@ -3,3 +3,28 @@
 \setcounter{section}{1}
 \section{Dynamic Analysis of Discrete Systems}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{itemize}
+\item (8.2.4) Final Value Theorem 
+	\begin{enumerate}
+		\item Discrete final value theorem is 
+		\begin{align*}
+			\lim_{t \rightarrow \infty} x(t) = x_{ss} &= \lim_{s \rightarrow 0} sX(s) &&&
+			\lim_{k \rightarrow \infty} x(k) = x_{ss} &= \lim_{z \rightarrow 1} (1-z^{-1}) X(z) 
+		\end{align*}
+		if all the poles of $(1-z^{-1}) X(z)$ are inside the unit circle. 
+		\item For example, to find the DC gain of the TF
+		\begin{align*}
+			G(z) = \frac{X(z)}{U(z)} = \frac{0.58(1+z)}{z+0.16} 
+		\end{align*}
+		we let $u(k) =1 $ for $k \geq 0$, so that 
+		\begin{align*}
+			U(z) = \frac{1}{1-z^{-1}} ~~~\text{and} ~~~ X(z) = \frac{0.58(1+z)}{(1-z^{-1})(z+0.16)}
+		\end{align*}
+
+		Applying the final value theorem yields 
+		\begin{align*}
+			x_{ss} &= \lim_{z \rightarrow 1} (1-z^{-1}) X(z) = \frac{0.58 \cdot 2}{1+0.16} = 1
+		\end{align*}
+		so the DC gain of $G(z)$ is unity. 
+	\end{enumerate}
+\end{itemize}	

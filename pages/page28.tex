@@ -1,5 +1,26 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{2}
+\section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+
+\begin{itemize}
+	\item (8.3.2) Zeroth-Order Hold (ZOH) Method 
+	\begin{enumerate}
+		\item Tustin's method essentially assumed that the input to the controller varied linearly early between the past sample  and the current sample. 
+		\item Another assumption is that the input to the controller remains constant throughout the sample period.  $\rightarrow$ ZOH 
+		\item One input sample produces a square pulse of height $e(k)$ that lasts for one sample period $T$. 
+		\item For a constant positive step input, $e(k)$, at time $k$, $E(s) = e(k)/s$, so the result would be
+		\begin{align*}
+			D_d(z) = \mathcal{Z} \left( \frac{D_c(s)}{s} \right)
+		\end{align*}
+		Furthermore, a constant negative step, one cycle delayed, would be 
+		\begin{align*}
+			D_d(z) = z^{-1} \mathcal{Z} \left( \frac{D_c(s)}{s} \right)
+		\end{align*}
+		Therefore, the discrete TF for the square pulse is 
+		\begin{align*}
+			D_d(z) = (1-z^{-1}) \mathcal{Z} \left( \frac{D_c(s)}{s} \right)
+		\end{align*}	
+	\end{enumerate}
+\end{itemize}

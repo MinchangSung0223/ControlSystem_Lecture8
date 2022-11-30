@@ -1,5 +1,27 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{2}
+\section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{enumerate}
+	\setcounter{enumi}{4}
+	\item (Example 8.1) Determine the difference equation with a sample rate of 25 times bandwidth using Tustin's approximation. 
+		\begin{align*}
+			D_c(s) = 10 \frac{s/2+1}{s/10+1} ~~~~ \text{Lead compensator} 
+		\end{align*}
+		Since the bandwidth is approximately $\omega_{bd} = 10[rad/s]$, the sampling rate should be
+		\begin{align*}
+			\omega_s = 25 \times \omega_{bd} = 250 [rad/s] ~~~~ \rightarrow~~~~~ f_s = \frac{\omega_s}{2\pi} \approx 40[Hz] ~~~~\rightarrow~~~~ T = \frac{1}{f_s} = \frac{1}{40} = 0.025[s]
+		\end{align*}
+		The discrete TF can be obtained as 
+		\begin{align*}
+			D_d(z) &= 10 \frac{\frac{1}{T} \frac{1-z^{-1}}{1+z^{-1}}+1}{\frac{1}{5T} \frac{1-z^{-1}}{1+z^{-1}}+1} =  10 \frac{5(1-z^{-1})+ 5T(1+z^{-1})}{(1-z^{-1})+ 5T(1+z^{-1})} \\
+			&= 50 \frac{(1+T) - (1-T)z^{-1}}{(1+5T) - (1-5T)z^{-1}} 
+			= 50 \frac{1.025 - 0.975z^{-1}}{1.125 - 0.875z^{-1}} 
+			= \frac{45.556 - 43.333 z^{-1}}{1 - 0.778z^{-1}}
+		\end{align*}
+		Finally, the difference equation is 
+		\begin{align*}
+			u(k) &= 0.778 u(k-1) + 45.556 [ e(k) -  0.951 e(k-1) ]
+		\end{align*}
+\end{enumerate}		

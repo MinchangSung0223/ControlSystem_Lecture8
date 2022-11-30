@@ -1,5 +1,28 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{2}
+\section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{enumerate}
+	\setcounter{enumi}{4}
+		\item (Example 8.3) Design a digital controller to have a closed-loop natural frequency $\omega_n = 0.3$ and a damping ratio $\zeta = 0.7$, another real pole at $s=-1.58$, using MPZ digitization
+		\begin{align*}
+			G(s) = \frac{1}{s^2}
+		\end{align*}
+		Let us assume that the lead compensator is used
+		\begin{align*}
+			D_c(s) = K_c \frac{s+b}{s+a} 
+		\end{align*}
+		Then, we have the characteristic equation
+		\begin{align*}
+			1+G(s) D_c(s) &= 1 + K_c \frac{s+b}{s^2(s+a)}  = s^3 + as^2 + K_c s + K_c b \\
+			\alpha_c(s) &= (s^2 + 2 \zeta \omega_n s + {\omega_n }^2)(s- p)\\
+						&= (s^2 + 0.42s + 0.09)(s+1.58) = s^3 + 2s^2 + 0.7536s + 0.1422
+		\end{align*}
+	    with $a=2$, $b=0.19$, and $K_c = 0.7536$. Now we have the lead compensator: 
+		\begin{align*}
+			D_c(s) = 0.7536 \frac{s+0.19}{s+2} ~~~~\rightarrow~~~~
+			D_c(s) = 0.81 \frac{s+0.2}{s+2}
+		\end{align*}
+
+	\end{enumerate}

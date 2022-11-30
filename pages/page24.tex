@@ -1,5 +1,24 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{2}
+\section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+
+\begin{enumerate}
+	\setcounter{enumi}{1}
+		\item Taking $z$-transform, 
+		\begin{align*}
+			\frac{U(z)}{E(z)} = \frac{T}{2} \frac{1+z^{-1}}{1-z^{-1}} = \frac{1}{\frac{2}{T} \frac{1-z^{-1}}{1+z^{-1}} }
+		\end{align*}
+		\item In fact, the Tustin's method approximates $z = e^{sT}$ as follows:
+		\begin{align*}
+			s \approx  \frac{2}{T} \frac{1-z^{-1}}{1+z^{-1}}
+		\end{align*}
+		where it can be derived from the Taylor's series expansions as follows:
+		\begin{align*}
+			z &= e^{sT} = \frac{e^{\frac{sT}{2}}}{e^{-\frac{sT}{2}}} 
+			= \frac{1 + \frac{sT}{2} + \frac{s^2T^2}{2^2} + \cdots}{1 - \frac{sT}{2} + \frac{s^2T^2}{2^2} - \cdots} \approx  \frac{1 + \frac{sT}{2}}{1 - \frac{sT}{2}}  = \frac{2+sT}{2-sT} 
+			~~~~~\rightarrow~~~~~ s \approx  \frac{2}{T} \frac{z-1}{z+1} = \frac{2}{T} \frac{1-z^{-1}}{1+z^{-1}}
+		\end{align*}
+
+\end{enumerate}

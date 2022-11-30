@@ -1,5 +1,31 @@
 %!TEX root = ../main.tex
 \setcounter{chapter}{7}
-\setcounter{section}{0}
-\section{Digitization}
+\setcounter{section}{2}
+\section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{itemize}
+	\item (8.3.3) Matched Pole-Zero (MPZ) Method 
+	\begin{enumerate}
+		\item Another digitization method, called the matched pole-zero (MPZ) method, is suggested by matching the poles and zeros between $s$ and $z$ planes, using $z = e^{sT}$. 
+		\item Because physical systems often have more poles than zeros, it is useful to arbitrarily add zeros at $z=-1$, resulting in a $(1+z^{-1})$ term in $D_d(z)$.
+		\begin{enumerate}
+			\item Map poles and zeros according to the relation $z = e^{sT}$
+			\item If the numerator is of lower order than the denominator, add powers of $(1+z^{-1})$ to the numerator until numerator and denominator are of equal order.
+			\item Set the DC or low frequency gain of $D_d(z)$ equal to that of $D_c(s)$.
+		\end{enumerate}
+		\item For example, the MPZ approximation  
+		\begin{align*}
+			D_c(s) &= K_c \frac{s+a}{s+b} &&& D_d(z) &= K_d \frac{1-e^{-aT}z^{-1}}{1-e^{-bT}z^{-1}}
+		\end{align*}
+		where $K_d$ is found by the DC-gain 
+		\begin{align*}
+			\lim_{s \rightarrow 0} D_c(s) = K_c \frac{a}{b} ~~~~\rightleftarrows~~~~~ 
+			\lim_{z \rightarrow 1} D_d(z) = K_d \frac{1-e^{-aT}}{1-e^{-bT}} 
+		\end{align*} 
+		Thus the result is
+		\begin{align*}
+			K_d = K_c \frac{a}{b} \left( \frac{1-e^{-bT}}{1-e^{-aT}} \right) 
+		\end{align*}
+	\end{enumerate}
+
+\end{itemize}		
