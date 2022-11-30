@@ -3,3 +3,21 @@
 \setcounter{section}{2}
 \section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{itemize}
+	\item (8.3.4) Modified Matched Pole-Zero (MMPZ) Method 
+	\begin{enumerate}
+		\item Modify Step 2 in the MPZ so that the numerator is of lower order than denominator by 1. For example, if
+		\begin{align*}
+			D_c(s) = K_c \frac{s+a}{s(s+b)}
+		\end{align*}
+		we skip Step 2 to get 
+		\begin{align*}
+			D_d(z) = K_d \frac{z^{-1}(1-e^{-aT}z^{-1})}{(1-z^{-1})(1-e^{-bT}z^{-1})} ~~~~~~\mbox{where}~~ K_d = K_c \frac{a}{b} \left( \frac{1-e^{-bT}}{1-e^{-aT}} \right) 
+		\end{align*}
+		We can see the difference equation as follow:
+		\begin{align*}
+			u(k) = (1+e^{-bT})u(k-1) - e^{-bT} u(k-2) + K_d [ e(k-1) - e^{-aT} e(k-2) ] 
+		\end{align*}
+		where it makes use of $e(k-1)$ that are one cycle old, not $e(k)$. 
+	\end{enumerate}
+\end{itemize}	

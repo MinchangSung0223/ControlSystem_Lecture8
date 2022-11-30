@@ -3,3 +3,29 @@
 \setcounter{section}{2}
 \section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{itemize}
+
+\item (8.3.5) Comparison of Digital Approximation Methods 
+	\begin{enumerate}
+		\item Let us compare four approximation methods with the sampling rate 
+		\begin{align*}
+			D_c(s) = \frac{5}{s+5}
+		\end{align*}
+		\item Tustin's method
+		\begin{align*}
+			D_d(z) &= \frac{5}{\frac{2}{T} \frac{1-z^{-1}}{1+z^{-1}} +5} = \frac{5T(1+z^{-1})}{2(1-z^{-1}) +5T(1+z^{-1})} = \frac{5T + 5T z^{-1}}{ (2+5T) - (2-5T)z^{-1}} \\
+			&= \left( \frac{5T}{2+5T} \right) \frac{ 1+ z^{-1} } { 1 - \left( \frac{2-5T}{2+5T} \right) z^{-1}} 
+		\end{align*}
+		\item ZOH 
+		\begin{align*}
+			D_d(z) &= (1-z^{-1}) \mathcal{Z} \left( \frac{D_c(s)}{s} \right) =  (1-z^{-1}) \mathcal{Z} \left( \frac{5}{s(s+5)} \right) =(1-z^{-1})  \frac{(1-e^{-5T})z^{-1}}{(1-z^{-1})(1-e^{-5T}z^{-1})} \\
+			&= (1-e^{-5T}) \frac{z^{-1}}{1-e^{-5T}z^{-1}} 
+		\end{align*}
+		\item MPZ 
+		\begin{align*}
+			D_d(z) &= K_d \frac{(1+z^{-1})}{1-e^{-5T}z^{-1}} ~~~~\mbox{where}~~ K_d \frac{2}{1-e^{-5T}} = 1 \\
+			&= \left( \frac{1-e^{-5T}}{2} \right)  \frac{1+z^{-1}}{1-e^{-5T}z^{-1}}  
+		\end{align*}
+
+	\end{enumerate}
+\end{itemize}		

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.8)  30 NOV 2022 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.8)  30 NOV 2022 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -784,9 +784,12 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 18.
- (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
+
+(C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
 Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
 \At@ViperColsBreak=\toks34
 \preCutedStrip=\toks35
@@ -807,8 +810,8 @@ Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
 \stripsep=\skip258
 \viper@penalty=\count341
 )
-LaTeX Font Info:    Trying to load font information for OT1+pnc on input line 2
-8.
+LaTeX Font Info:    Trying to load font information for OT1+pnc on input line 3
+0.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pnc.fd
 File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
@@ -816,33 +819,33 @@ File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 30.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
-ne 28.
+ne 30.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/nanumtype1\lucnanummj.f
 d
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
    defining Unicode char U+00B7 (decimal 183)
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/kotex-oblivoir/memhangu
@@ -851,7 +854,7 @@ Package: memucs-gremph
 LaTeX Info: Redefining \itshape on input line 74.
 LaTeX Info: Redefining \slshape on input line 78.
 )
-Package hyperref Info: Link coloring ON on input line 28.
+Package hyperref Info: Link coloring ON on input line 30.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -867,10 +870,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 28.
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -933,7 +936,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-1.png, id=143, 544.9158pt x 397.0032pt>
+<./FIG_Franklin/fig8-1.png, id=170, 544.9158pt x 397.0032pt>
 File: ./FIG_Franklin/fig8-1.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-1.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-1.png  used on input line 8.
@@ -945,7 +948,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc1.png, id=150, 835.047pt x 532.17pt>
+<./FIG_Franklin/fig8-smc1.png, id=177, 835.047pt x 532.17pt>
 File: ./FIG_Franklin/fig8-smc1.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc1.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc1.png  used on input line 14.
@@ -957,7 +960,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc2.png, id=156, 806.577pt x 303.096pt>
+<./FIG_Franklin/fig8-smc2.png, id=183, 806.577pt x 303.096pt>
 File: ./FIG_Franklin/fig8-smc2.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc2.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc2.png  used on input line 16.
@@ -975,7 +978,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc3.png, id=198, 528.009pt x 342.954pt>
+<./FIG_Franklin/fig8-smc3.png, id=225, 528.009pt x 342.954pt>
 File: ./FIG_Franklin/fig8-smc3.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc3.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc3.png  used on input line 10.
@@ -993,7 +996,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc4.png, id=242, 927.903pt x 482.457pt>
+<./FIG_Franklin/fig8-smc4.png, id=269, 927.903pt x 482.457pt>
 File: ./FIG_Franklin/fig8-smc4.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc4.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc4.png  used on input line 8.
@@ -1006,7 +1009,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.1})
                    \relax 
 l.4 \section{Digitization}
                           
-<./FIG_Franklin/fig8-smc5.png, id=248, 737.154pt x 475.449pt>
+<./FIG_Franklin/fig8-smc5.png, id=275, 737.154pt x 475.449pt>
 File: ./FIG_Franklin/fig8-smc5.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc5.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc5.png  used on input line 9.
@@ -1077,7 +1080,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
                    \relax 
 l.4 \section{Dynamic Analysis of Discrete Systems}
                                                   
-<./FIG_Franklin/fig8-4.png, id=315, 615.2586pt x 397.0032pt>
+<./FIG_Franklin/fig8-4.png, id=342, 615.2586pt x 397.0032pt>
 File: ./FIG_Franklin/fig8-4.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-4.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-4.png  used on input line 12.
@@ -1096,7 +1099,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-7.png, id=348, 650.43pt x 326.1786pt>
+<./FIG_Franklin/fig8-7.png, id=375, 650.43pt x 326.1786pt>
 File: ./FIG_Franklin/fig8-7.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-7.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-7.png  used on input line 23.
@@ -1126,7 +1129,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-smc6.png, id=372, 773.89125pt x 542.025pt>
+<./FIG_Franklin/fig8-smc6.png, id=399, 773.89125pt x 542.025pt>
 File: ./FIG_Franklin/fig8-smc6.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc6.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc6.png  used on input line 9.
@@ -1144,7 +1147,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-smc7.png, id=386, 1550.52pt x 713.502pt>
+<./FIG_Franklin/fig8-smc7.png, id=413, 1550.52pt x 713.502pt>
 File: ./FIG_Franklin/fig8-smc7.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc7.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc7.png  used on input line 9.
@@ -1156,7 +1159,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-smc8.png, id=392, 954.84pt x 590.862pt>
+<./FIG_Franklin/fig8-smc8.png, id=419, 954.84pt x 590.862pt>
 File: ./FIG_Franklin/fig8-smc8.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc8.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc8.png  used on input line 8.
@@ -1180,7 +1183,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-smc9.png, id=412, 802.49812pt x 542.025pt>
+<./FIG_Franklin/fig8-smc9.png, id=439, 802.49812pt x 542.025pt>
 File: ./FIG_Franklin/fig8-smc9.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc9.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc9.png  used on input line 9.
@@ -1209,35 +1212,98 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               
-<./FIG_Franklin/fig8-14.png, id=439, 444.2196pt x 412.4208pt>
-File: ./FIG_Franklin/fig8-14.png Graphic file (type png)
-<use ./FIG_Franklin/fig8-14.png>
-Package pdftex.def Info: ./FIG_Franklin/fig8-14.png  used on input line 30.
-(pdftex.def)             Requested size: 227.62204pt x 211.33241pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [39] (pages/page38.tex
+                                               ) [39] (pages/page38.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               ) [40 <./FIG_Franklin/fig8-14.pn
-g>] (main.aux)
+                                               
+<./FIG_Franklin/fig8-smc10.png, id=470, 906.003pt x 511.803pt>
+File: ./FIG_Franklin/fig8-smc10.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-smc10.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-smc10.png  used on input line 8.
+(pdftex.def)             Requested size: 682.86613pt x 385.74901pt.
+) [40 <./FIG_Franklin/fig8-smc10.png>] (pages/page38.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               
+File: ./FIG_Franklin/fig8-smc10.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-smc10.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-smc10.png  used on input line 8.
+(pdftex.def)             Requested size: 682.86613pt x 385.74901pt.
+) [41] (pages/page39.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [42] (pages/page40.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [43] (pages/page41.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               
+<./FIG_Franklin/fig8-15.png, id=496, 650.43pt x 177.3024pt>
+File: ./FIG_Franklin/fig8-15.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-15.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-15.png  used on input line 17.
+(pdftex.def)             Requested size: 569.05511pt x 155.13107pt.
+) [44 <./FIG_Franklin/fig8-15.png>] (pages/page42.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \section{Design using Discrete Equivalents}
+                                               ) [45] (pages/page43.tex
+[46] [47]
+Overfull \hbox (0.99255pt too wide) in paragraph at lines 38--39
+[]\LUC/nanummj/m/n/14.4/ac °\LUC/nanummj/m/n/14.4/ad m \OT1/pnc/m/n/14.4 Alias-
+ing \LUC/nanummj/m/n/14.4/c7 t \LUC/nanummj/m/n/14.4/bc ^^\\LUC/nanummj/m/n/14.
+4/c0 Ý\LUC/nanummj/m/n/14.4/d5 X\LUC/nanummj/m/n/14.4/c9 À \LUC/nanummj/m/n/14.
+4/c5 J\LUC/nanummj/m/n/14.4/b3 Ä\LUC/nanummj/m/n/14.4/b8 ] \LUC/nanummj/m/n/14.
+4/d5 X\LUC/nanummj/m/n/14.4/b8 $\LUC/nanummj/m/n/14.4/ba t \OT1/pnc/m/n/14.4 Sa
+m-pling Fre-quency \LUC/nanummj/m/n/14.4/bc ô\LUC/nanummj/m/n/14.4/b2 ä \LUC/na
+nummj/m/n/14.4/d0 p \LUC/nanummj/m/n/14.4/c8 ü\LUC/nanummj/m/n/14.4/d3 ^^L\LUC/
+nanummj/m/n/14.4/c2 ^^X\LUC/nanummj/m/n/14.4/c5 Ð \LUC/nanummj/m/n/14.4/b3 ^^@\
+LUC/nanummj/m/n/14.4/d5 t\LUC/nanummj/m/n/14.4/c1 ^^\\LUC/nanummj/m/n/14.4/b2 ”
+ \LUC/nanummj/m/n/14.4/ba ¨\LUC/nanummj/m/n/14.4/b4 P \OT1/pnc/m/n/14.4 Low-
+ []
+
+[48] [49] [50]
+<./FIG_Franklin/fig8-17.png, id=545, 758.835pt x 180.675pt>
+File: ./FIG_Franklin/fig8-17.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-17.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-17.png  used on input line 88.
+(pdftex.def)             Requested size: 341.43306pt x 81.29471pt.
+ [51 <./FIG_Franklin/fig8-17.png>]
+<./FIG_Franklin/fig8-18.png, id=551, 686.565pt x 249.93375pt>
+File: ./FIG_Franklin/fig8-18.png Graphic file (type png)
+<use ./FIG_Franklin/fig8-18.png>
+Package pdftex.def Info: ./FIG_Franklin/fig8-18.png  used on input line 115.
+(pdftex.def)             Requested size: 341.43306pt x 124.29153pt.
+ [52 <./FIG_Franklin/fig8-18.png>] [53] [54] [55]) (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2DEAB4770A330B56975B1E60036C8708;7409.
+(rerunfilecheck)             Checksum: 58380F11AD559B9DB8A1A7E4D953F62E;8956.
  ) 
 Here is how much of TeX's memory you used:
- 16130 strings out of 478619
- 259951 string characters out of 2843246
- 580179 words of memory out of 3000000
- 33730 multiletter control sequences out of 15000+600000
- 487678 words of font info for 84 fonts, out of 8000000 for 9000
+ 16280 strings out of 478619
+ 262922 string characters out of 2843246
+ 581022 words of memory out of 3000000
+ 33813 multiletter control sequences out of 15000+600000
+ 490327 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,16n,107p,500b,667s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 105i,18n,107p,500b,756s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1249,48 +1315,55 @@ MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/wdrac/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/wdrac/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wdrac
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Use
-rs/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam
-10.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumty
-pe1/nanummjmac.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/nanumtype1/nanummjmad.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/nanumtype1/nanummjmae.pfb><C:/Users/wdrac/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb0.pfb><C:/Users/wdrac/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb1.pfb><C:/Users/wd
-rac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb2.pfb>
-<C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nan
-ummjmb3.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/na
-numtype1/nanummjmb4.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/nanumtype1/nanummjmb5.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/nanumtype1/nanummjmb7.pfb><C:/Users/wdrac/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb8.pfb><C:/Users/wdrac/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb9.pfb><C:/Use
-rs/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmba
-.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype
-1/nanummjmbc.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/nanumtype1/nanummjmbd.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/font
-s/type1/public/nanumtype1/nanummjmc0.pfb><C:/Users/wdrac/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc1.pfb><C:/Users/wdrac/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc2.pfb><C:/Users/wdra
-c/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc5.pfb><C
-:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanum
-mjmc6.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanu
-mtype1/nanummjmc7.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/nanumtype1/nanummjmc8.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/nanumtype1/nanummjmc9.pfb><C:/Users/wdrac/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/nanumtype1/nanummjmcd.pfb><C:/Users/wdrac/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd1.pfb><C:/Users
-/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd2.p
+rs/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lin
+e10.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/symbols/msam10.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/nanumtype1/nanummjmac.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/nanumtype1/nanummjmad.pfb><C:/Users/wdrac/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/nanumtype1/nanummjmae.pfb><C:/Users/wdrac/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb0.pfb><C:/Users
+/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb1.p
 fb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/
-nanummjmd3.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/nanumtype1/nanummjmd4.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/nanumtype1/nanummjmd5.pfb><C:/Users/wdrac/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/nanumtype1/nanummjmd6.pfb><C:/Users/wdrac/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/wdrac/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/wdrac/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (40 pages, 15787843 bytes).
+nanummjmb2.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/nanumtype1/nanummjmb3.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/nanumtype1/nanummjmb4.pfb><C:/Users/wdrac/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/nanumtype1/nanummjmb5.pfb><C:/Users/wdrac/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb7.pfb><C:/Users/wdrac/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb8.pfb><C:/
+Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummj
+mb9.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumt
+ype1/nanummjmba.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/nanumtype1/nanummjmbb.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/nanumtype1/nanummjmbc.pfb><C:/Users/wdrac/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/nanumtype1/nanummjmbd.pfb><C:/Users/wdrac/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc0.pfb><C:/Users/w
+drac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc1.pfb
+><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/na
+nummjmc2.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/n
+anumtype1/nanummjmc5.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/nanumtype1/nanummjmc6.pfb><C:/Users/wdrac/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/nanumtype1/nanummjmc7.pfb><C:/Users/wdrac/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc8.pfb><C:/Users/wdrac/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc9.pfb><C:/Us
+ers/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc
+c.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtyp
+e1/nanummjmcd.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/nanumtype1/nanummjmce.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/nanumtype1/nanummjmcf.pfb><C:/Users/wdrac/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd0.pfb><C:/Users/wdrac/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd1.pfb><C:/Users/wdr
+ac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd2.pfb><
+C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nanumtype1/nanu
+mmjmd3.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nan
+umtype1/nanummjmd4.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/nanumtype1/nanummjmd5.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/nanumtype1/nanummjmd6.pfb><C:/Users/wdrac/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/wdrac/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/wdrac/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on main.pdf (55 pages, 16572095 bytes).
 PDF statistics:
- 650 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 490 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 803 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
+ 589 words of extra memory for PDF output out of 10000 (max. 10000000)
 

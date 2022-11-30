@@ -3,3 +3,16 @@
 \setcounter{section}{2}
 \section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
+\begin{itemize}
+	\item (8.3.6) Applicability Limits of the Discrete Equivalent Design Method
+	\begin{enumerate}
+		\item The system can often be \emph{unstable} for rates slower than approximately $5\omega_{bd}$, and 
+		\item the damping would be \emph{degraded} significantly for rates slower than about $10\omega_{bd}$ 
+		\item At sample rates $\geq 20 \omega_{bd}$, design by discrete equivalent yields \emph{reasonable} results, and 
+		\item at sample rates of 25 times the bandwidth or higher, discrete equivalents can be used \emph{with confidence}. 
+		\item ZOH brings $T/2$ delay in the control system. A method to account for the $T/2$ delay is to include an approximation of the delay into the original plant model: 
+		\begin{align*}
+			G_{ZOH} (s) = \frac{2/T}{s+ 2/T}		
+		\end{align*}
+	\end{enumerate}
+\end{itemize}
