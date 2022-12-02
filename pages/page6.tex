@@ -3,26 +3,18 @@
 \setcounter{section}{0}
 \section{Digitization}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
-\begin{enumerate}
-	\setcounter{enumi}{1}
-	\item Generalized function
 
-	\begin{itemize}
-			\centering
-		\item $\delta(t) = 0$ for $ t \neq 0$ 
-		\item $\int_{-\infty}^{\infty} \delta(t) dt = 1$ 
-	\end{itemize}
-\end{enumerate}
-
-$\bigstar$ Unit step function is mathematically defined as:
+$\bigstar$ Unit step function
 \begin{align*}
-	1(t) = \begin{cases}1 & t > 0\\ undefined & t = 0 \\0 & t< 0\end{cases}
-\end{align*}
-In contol theory
-\begin{align*}
-	1(t) = \begin{cases}1 & t \geq 0 \\0 & t< 0\end{cases}
+	1_k(t) = \frac{1}{1+e^{-2kt}}&&&& 1(t) = \begin{cases}1 & t \geq 0 \\0 & t< 0\end{cases}\\
+	1(t) = \lim_{k \rightarrow \infty} 1_k(t) 
 \end{align*}
 
+
+	    \begin{figure}[!h]
+	        \centering
+	        \includegraphics[width=18cm]{./FIG_Franklin/fig8-smc2_2.png}
+	    \end{figure}
 
 
 $\bigstar$ Useful Properties

@@ -4,17 +4,18 @@
 \section{Digitization}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
 
-$\bigstar$ Dirac delta function is mathematically defined as:
-\begin{enumerate}
+$\bigstar$ Dirac delta function 
+\begin{itemize}
 	\item Approximation
 	\begin{align*}
-		F_{\Delta t}(t) = \begin{cases}1/\Delta t & 0 < t \leq \Delta t \\0 & otherwise \end{cases}\\
-		\delta(t) =  \lim_{\Delta t\rightarrow 0} F_{\Delta t}(t) 
+		\delta_a(t) \doteq \frac{1}{|a| \sqrt{\pi}}e^{-{\left( \frac{t}{a} \right)}^2} &&&& F_{\Delta t}(t) \doteq  \begin{cases}1/\Delta t & 0 < t \leq \Delta t \\0 & otherwise \end{cases}\\
+		\delta(t) \doteq \lim_{a \rightarrow 0} \delta_a(t) &&&& \delta(t) \doteq  \lim_{\Delta t\rightarrow 0} F_{\Delta t}(t) 
 	\end{align*}
+
 	    \begin{figure}[!h]
 	        \centering
-	        \includegraphics[width=20cm]{./FIG_Franklin/fig8-smc2.png}
+	        \includegraphics[width=18cm]{./FIG_Franklin/fig8-smc2.png}
 	    \end{figure}
 
-\end{enumerate}
+\end{itemize}
 
