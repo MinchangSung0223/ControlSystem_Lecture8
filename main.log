@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.8)  2 DEC 2022 21:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.8)  3 DEC 2022 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,31 +787,76 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ) (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 20.
+(mcode.sty
+-- Package: `mcode' 2.7 <2015/11/11> --
+Package: mcode 2015/11/11 2.7
+ - settings optimized for display (colour formating)
+ - literate programming (character replacements) enabled
+ - automatic line breaking enabled (careful, buggy!)
+ - framed listings
+(C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count341
+\lst@gtempboxa=\box60
+\lst@token=\toks34
+\lst@length=\count342
+\lst@currlwidth=\dimen267
+\lst@column=\count343
+\lst@pos=\count344
+\lst@lostspace=\dimen268
+\lst@width=\dimen269
+\lst@newlines=\count345
+\lst@lineno=\count346
+\lst@maxwidth=\dimen270
+
+(C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count347
+\lst@skipnumbers=\count348
+\lst@framebox=\box61
+)
+(C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+\lbreakdots=\box62
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
+30.
+(C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+))
+(C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count349
+\float@exts=\toks35
+\float@box=\box63
+\@float@everytoks=\toks36
+\@floatcapt=\box64
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
 Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
-\At@ViperColsBreak=\toks34
-\preCutedStrip=\toks35
-\postCutedStrip=\toks36
-\cuted@@tempbox@a=\box60
-\cuted@@tempbox@c=\box61
-\cuted@@tempbox@var=\box62
-\hold@viper=\box63
-\@viper=\box64
-\cuted@@varbox@a=\box65
-\cuted@@varbox@c=\box66
-\cuted@@tempdim@spread=\dimen267
-\cuted@@tempdim@a=\dimen268
-\cuted@@tempdim@b=\dimen269
-\ht@hold@viper=\dimen270
-\ht@viper=\dimen271
-\var@@pagediscards@ht=\dimen272
+\At@ViperColsBreak=\toks37
+\preCutedStrip=\toks38
+\postCutedStrip=\toks39
+\cuted@@tempbox@a=\box65
+\cuted@@tempbox@c=\box66
+\cuted@@tempbox@var=\box67
+\hold@viper=\box68
+\@viper=\box69
+\cuted@@varbox@a=\box70
+\cuted@@varbox@c=\box71
+\cuted@@tempdim@spread=\dimen271
+\cuted@@tempdim@a=\dimen272
+\cuted@@tempdim@b=\dimen273
+\ht@hold@viper=\dimen274
+\ht@viper=\dimen275
+\var@@pagediscards@ht=\dimen276
 \stripsep=\skip258
-\viper@penalty=\count341
+\viper@penalty=\count350
 )
 LaTeX Font Info:    Trying to load font information for OT1+pnc on input line 3
-0.
+2.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pnc.fd
 File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
@@ -819,33 +864,33 @@ File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 32.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
-ne 30.
+ne 32.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/nanumtype1\lucnanummj.f
 d
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
    defining Unicode char U+00B7 (decimal 183)
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/kotex-oblivoir/memhangu
@@ -854,7 +899,7 @@ Package: memucs-gremph
 LaTeX Info: Redefining \itshape on input line 74.
 LaTeX Info: Redefining \slshape on input line 78.
 )
-Package hyperref Info: Link coloring ON on input line 30.
+Package hyperref Info: Link coloring ON on input line 32.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -866,14 +911,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count342
+\c@section@level=\count351
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 30.
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -882,17 +927,17 @@ LaTeX Info: Redefining \nameref on input line 30.
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count343
-\scratchdimen=\dimen273
-\scratchbox=\box67
-\nofMPsegments=\count344
-\nofMParguments=\count345
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count346
-\MPscratchDim=\dimen274
-\MPnumerator=\count347
-\makeMPintoPDFobject=\count348
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count352
+\scratchdimen=\dimen277
+\scratchbox=\box72
+\nofMPsegments=\count353
+\nofMParguments=\count354
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count355
+\MPscratchDim=\dimen278
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
+\everyMPtoPDFconversion=\toks41
 )
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -903,7 +948,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (pages/page1.tex
+))
+\c@lstlisting=\count358
+ (pages/page1.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 
 (C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1157,102 +1204,109 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-smc6.png, id=399, 773.89125pt x 542.025pt>
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 9
+.
+
+(C:\Users\wdrac\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+[28] [29]
+<./FIG_Franklin/fig8-smc6.png, id=431, 815.29594pt x 484.81125pt>
 File: ./FIG_Franklin/fig8-smc6.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc6.png>
-Package pdftex.def Info: ./FIG_Franklin/fig8-smc6.png  used on input line 9.
-(pdftex.def)             Requested size: 569.05511pt x 398.5614pt.
-) [28 <./FIG_Franklin/fig8-smc6.png>] (pages/page29.tex
+Package pdftex.def Info: ./FIG_Franklin/fig8-smc6.png  used on input line 36.
+(pdftex.def)             Requested size: 569.05511pt x 338.39647pt.
+) [30 <./FIG_Franklin/fig8-smc6.png>] (pages/page29.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-smc7.png, id=405, 898.776pt x 684.813pt>
+<./FIG_Franklin/fig8-smc7.png, id=437, 898.776pt x 684.813pt>
 File: ./FIG_Franklin/fig8-smc7.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc7.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc7.png  used on input line 9.
 (pdftex.def)             Requested size: 569.05511pt x 433.58705pt.
-) [29 <./FIG_Franklin/fig8-smc7.png>] (pages/page28.tex
+) [31 <./FIG_Franklin/fig8-smc7.png>] (pages/page28.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               ) [30] (pages/page30.tex
+                                               ) [32] (pages/page30.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-smc8.png, id=419, 954.84pt x 590.862pt>
+<./FIG_Franklin/fig8-smc8.png, id=452, 954.84pt x 590.862pt>
 File: ./FIG_Franklin/fig8-smc8.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc8.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc8.png  used on input line 8.
 (pdftex.def)             Requested size: 654.41338pt x 404.96342pt.
-) [31 <./FIG_Franklin/fig8-smc8.png>] (pages/page31.tex
+) [33 <./FIG_Franklin/fig8-smc8.png>] (pages/page31.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               ) [32] (pages/page32.tex
+                                               ) [34] (pages/page32.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                                [33]) [34] (pages/page33.tex
+                                                [35]) [36] (pages/page33.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-smc9.png, id=439, 802.49812pt x 542.025pt>
+<./FIG_Franklin/fig8-smc9.png, id=471, 802.49812pt x 542.025pt>
 File: ./FIG_Franklin/fig8-smc9.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc9.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc9.png  used on input line 9.
 (pdftex.def)             Requested size: 569.05511pt x 384.37727pt.
-) [35 <./FIG_Franklin/fig8-smc9.png>] (pages/page34.tex
+) [37 <./FIG_Franklin/fig8-smc9.png>] (pages/page34.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               ) [36] (pages/page35.tex
+                                               ) [38] (pages/page35.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               ) [37] (pages/page36.tex
+                                               ) [39] (pages/page36.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               ) [38] (pages/page37.tex
+                                               ) [40] (pages/page37.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               ) [39] (pages/page38.tex
+                                               ) [41] (pages/page38.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-smc10.png, id=470, 906.003pt x 511.803pt>
+<./FIG_Franklin/fig8-smc10.png, id=502, 906.003pt x 511.803pt>
 File: ./FIG_Franklin/fig8-smc10.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc10.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc10.png  used on input line 8.
 (pdftex.def)             Requested size: 682.86613pt x 385.74901pt.
-) [40 <./FIG_Franklin/fig8-smc10.png>] (pages/page38.tex
+) [42 <./FIG_Franklin/fig8-smc10.png>] (pages/page38.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
@@ -1263,38 +1317,38 @@ File: ./FIG_Franklin/fig8-smc10.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-smc10.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-smc10.png  used on input line 8.
 (pdftex.def)             Requested size: 682.86613pt x 385.74901pt.
-) [41] (pages/page39.tex
+) [43] (pages/page39.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               ) [42] (pages/page40.tex
+                                               ) [44] (pages/page40.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               ) [43] (pages/page41.tex
+                                               ) [45] (pages/page41.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
                                                
-<./FIG_Franklin/fig8-15.png, id=496, 650.43pt x 177.3024pt>
+<./FIG_Franklin/fig8-15.png, id=528, 650.43pt x 177.3024pt>
 File: ./FIG_Franklin/fig8-15.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-15.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-15.png  used on input line 17.
 (pdftex.def)             Requested size: 569.05511pt x 155.13107pt.
-) [44 <./FIG_Franklin/fig8-15.png>] (pages/page42.tex
+) [46 <./FIG_Franklin/fig8-15.png>] (pages/page42.tex
 pdfTeX warning (ext4): destination with the same identifier (name{section.7.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \section{Design using Discrete Equivalents}
-                                               ) [45] (pages/page43.tex
-[46] [47]
+                                               ) [47] (pages/page43.tex
+[48] [49]
 Overfull \hbox (0.99255pt too wide) in paragraph at lines 38--39
 []\LUC/nanummj/m/n/14.4/ac °\LUC/nanummj/m/n/14.4/ad m \OT1/pnc/m/n/14.4 Alias-
 ing \LUC/nanummj/m/n/14.4/c7 t \LUC/nanummj/m/n/14.4/bc ^^\\LUC/nanummj/m/n/14.
@@ -1308,30 +1362,30 @@ LUC/nanummj/m/n/14.4/d5 t\LUC/nanummj/m/n/14.4/c1 ^^\\LUC/nanummj/m/n/14.4/b2 ”
  \LUC/nanummj/m/n/14.4/ba ¨\LUC/nanummj/m/n/14.4/b4 P \OT1/pnc/m/n/14.4 Low-
  []
 
-[48] [49] [50]
-<./FIG_Franklin/fig8-17.png, id=545, 758.835pt x 180.675pt>
+[50] [51] [52]
+<./FIG_Franklin/fig8-17.png, id=577, 758.835pt x 180.675pt>
 File: ./FIG_Franklin/fig8-17.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-17.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-17.png  used on input line 88.
 (pdftex.def)             Requested size: 341.43306pt x 81.29471pt.
- [51 <./FIG_Franklin/fig8-17.png>]
-<./FIG_Franklin/fig8-18.png, id=551, 686.565pt x 249.93375pt>
+ [53 <./FIG_Franklin/fig8-17.png>]
+<./FIG_Franklin/fig8-18.png, id=583, 686.565pt x 249.93375pt>
 File: ./FIG_Franklin/fig8-18.png Graphic file (type png)
 <use ./FIG_Franklin/fig8-18.png>
 Package pdftex.def Info: ./FIG_Franklin/fig8-18.png  used on input line 115.
 (pdftex.def)             Requested size: 341.43306pt x 124.29153pt.
- [52 <./FIG_Franklin/fig8-18.png>] [53] [54] [55]) (main.aux)
+ [54 <./FIG_Franklin/fig8-18.png>] [55] [56] [57]) (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 58380F11AD559B9DB8A1A7E4D953F62E;8956.
  ) 
 Here is how much of TeX's memory you used:
- 16285 strings out of 478619
- 263134 string characters out of 2843246
- 581022 words of memory out of 3000000
- 33819 multiletter control sequences out of 15000+600000
- 490327 words of font info for 91 fonts, out of 8000000 for 9000
+ 17987 strings out of 478619
+ 287296 string characters out of 2843246
+ 643763 words of memory out of 3000000
+ 35469 multiletter control sequences out of 15000+600000
+ 491822 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,18n,107p,500b,765s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 105i,18n,107p,500b,1420s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1386,12 +1440,13 @@ mmjmd3.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type1/public/nan
 umtype1/nanummjmd4.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/nanumtype1/nanummjmd5.pfb><C:/Users/wdrac/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/nanumtype1/nanummjmd6.pfb><C:/Users/wdrac/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/wdrac/AppData/Local
-/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/wdrac/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (55 pages, 16768452 bytes).
+ograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/wdrac/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/wdrac/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/wdrac/AppData/
+Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on main.pdf (57 pages, 16698113 bytes).
 PDF statistics:
- 803 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
+ 844 PDF objects out of 1000 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
  594 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,8 +3,35 @@
 \setcounter{section}{2}
 \section{Design using Discrete Equivalents}
 \vspace{-8pt} \hrule \hrule \hrule \hrule \hrule  \vspace{12pt}
-Matlab Example
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=20cm]{./FIG_Franklin/fig8-smc6.png}
-		\end{figure}
+Matlab Code
+\begin{lstlisting}
+clc;clear all; format compact; close all;
+s=tf('s');
+Dc = 10*(s/2+1)/(s/10+1)
+Ts = 0.025;
+Dz = c2d(Dc,Ts,'tustin');
+[num,den]=tfdata(Dz);
+Dz = tf(num,den,Ts,"Variable","z^-1")
+figure(1)
+step(Dc);
+hold on;
+step(Dz);
+\end{lstlisting}
+\url{http://controlsystemsacademy.com/0003/0003.html}\\
+Result
+\begin{lstlisting}
+% Dc =
+%   100 s + 200
+%   -----------
+%    2 s + 20
+% Dz =
+%   45.56 - 43.33 z^-1
+%   ------------------
+%    1 - 0.7778 z^-1
+% Sampling Time: 0.025 seconds
+\end{lstlisting}
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=20cm]{./FIG_Franklin/fig8-smc6.png}
+\end{figure}
