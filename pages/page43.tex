@@ -17,7 +17,7 @@
 %
 	\item Analog Anti-Alias Prefilter는 아날로그 센서와 A/D converter 사이에 위치한다. 
 	\begin{itemize}
-		\item Aliasing은 아날로그 신호의 Maximum Frequency의 두배 이상의 Sampling Frequency를 사용하지 않은 경우, 아날로그 신호 주파수의 변형을 일으켜 디지털 신호로 변환 후에 다시 원래의 아날로그 신호를 복원하지 못하게 되는 현상을 뜻함.
+		\item Aliasing은 아날로그 신호의 Maximum Frequency의 두배 이상의 Sampling Frequency를 사용하지 않은 경우, 아날로그 신호 주파수의 변형을 일으켜 디지털 신호로 변환 후에 다시 원래의 아날로그 신호를 복원하지 못하게 되는 현상 혹은 주파수의 변형을 뜻함.
 		\begin{align*}
 				y(t) = \sin(2 \pi \cdot 55t) +\sin(2\pi \cdot 120t) ~~~~~ \text{Maximum Frequency is 120 [Hz]}
 		\end{align*}
@@ -35,7 +35,7 @@
 				\newpage		
 		\end{enumerate}
 
-		\item 결국 Aliasing이 발생하지 않도록 하려면 Sampling Frequency 보다 큰 주파수에 대해서는 모두 Lowpass Filter 처리해서 제거한 후에 샘플링을 진행해야 하며 이러한 방식의 LPF를 Anti-Alias Prefilter라는 이름으로 사용한다.
+		\item 결국 Aliasing이 발생하지 않도록 하려면 Sampling Frequency 보다 큰 주파수에 대해서는 모두 Lowpass Filter 처리해서 제거한 후에 샘플링을 진행해야 하며 이러한 유형의 Filter를 Anti-Alias Prefilter라는 이름으로 사용한다.
 		\begin{align*}
 				y(t) = \sin(2 \pi \cdot 55t) +\cancel{\sin(2\pi \cdot 120t)} ~~~~~ \text{Anti-Aliasing over $2 F_s$}
 		\end{align*}	
@@ -44,14 +44,15 @@
 			y_r(t)&=    \sin(2 \pi \cdot 55t) \\
 		\end{align*}
 
-		\item In a continuous system, noise components with a frequency much higher than the control-system bandwidth normally have a small effect because the system will not respond at the high frequency. 
-		
-		\item However, in a \emph{digital system}, the frequency of the noise can be \emph{aliased down}  to the vincinity of the system bandwidth so the closed-loop system would respond to the noise.
+		\item 시스템에 들어가거나, 발생하는 노이즈는 대부분 시스템의 bandwidth보다 매우 큰 주파수 값을 갖는다. continuous system의 경우 이러한 노이즈가 Dynamic Comensator에 의해서 제거될 수 있다. 하지만 discrete system의 경우 Sampling에 의해서 주파수 영역에서의 반복성이 발생하고 이로인해 노이즈가 시스템에 큰 영향을 끼칠 수 있다. 따라서 anti-aliasing filter를 사용하여 aliasing 발생할 부분을 제거하고 discretization을 수행한다.
+
 		\item The solution to prevent aliasing is to place an analog prefilter before the sampler. In many cases, a simple first-order low-pass filter will do - that is - 
 		\begin{align*}
-			H_p(s) = \frac{a}{s+a}
+			H_p(s) = \frac{a}{s+a}\\
+			a < \frac{\omega_s }{2}
 		\end{align*}
 		where the \emph{breakpoint} $a$ is selected to be lower than Nyquist rate $\omega_s/2$ so that any noise present with frequencies greater than Nyquist rate is attenuated by the prefilter. 
+
 		\item If $\omega_s$ is chosen to be $25 \times \omega_{bd}$, the anti-aliasing filter breakpoint $a$ should be selected lower than $\omega_s/2$, so that 
 		\begin{align*}
 			a = 10 \times \omega_{bd} ~~~~\leftarrow~~~~ \omega_s = 25 \times \omega_{bd} 
@@ -66,10 +67,14 @@
 \section{Sample-Rate Selection}
 %
 \begin{itemize}
-	\item The inherent approximation for the discrete TF may give rise to \emph{decreased performance} or even \emph{system instability} as the sample rate is lowered. This can lead the designer to conclude that a faster sample rate is required. 
-	\item The \emph{sampling theorem} states that in order to reconstruct an unknown, band-limited, continuous signal from samples of that signal, we must \emph{sample at least twice as fast as the highest frequency contained in the signal}. $\omega_s = 2 \omega_{bd}$  
+	\item The inherent approximation for the discrete TF may give rise to \emph{decreased performance} or even \emph{system instability} as the sample rate is lowered. This can lead the designer to conclude that a faster sample rate is required. \\
+    낮은 sample rate를 사용할수록 continuous TF를 discrete TF로 근사하는 것은 성능저하와 시스템의 안정도 저하를 불러온다. 따라서 제어기를 설계하는 사람은 얼마나 빠른 sample rate를 사용해야할 지 결정해야 한다.
+	\item The \emph{sampling theorem} states that in order to reconstruct an unknown, band-limited, continuous signal from samples of that signal, we must \emph{sample at least twice as fast as the highest frequency contained in the signal}. $\omega_s = 2 \omega_{bd}$\\
+	Sampling Theorem에 의하면 bandwidth의 적어도 두배 이상의 Sampling Frequency를 사용해야 한다. 
+
 	\item In the $z$-plane, the highest frequency that can be represented by a discrete system is $\omega_s/2$. 
-	\item For a very high frequency noise, it would be foolish to sample fast enough to attenuate the disturbance without the use of a prefilter. 
+	\item For a very high frequency noise, it would be foolish to sample fast enough to attenuate the disturbance without the use of a prefilter. \\
+	일반적으로 노이즈의 주파수는 매우 높은데, 이를 제거하기 위해서 prefilter를 사용하지 않고, 높은 sampling frequency를 사용하는 것은 바보같은 일이다. 
 \end{itemize}
 %
 %

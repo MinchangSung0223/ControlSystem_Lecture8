@@ -1,0 +1,51 @@
+clc;clear all; format compact; close all;
+s = tf('s')
+z = tf('z')
+Dc = 5/(s+5);
+Ts = 1/15;
+Fs = 15;
+zoh_Dz = c2d(Dc,Ts,'zoh');
+matched_Dz = c2d(Dc,Ts,'matched');
+MPZ_Dz = (1-exp(-5*Ts))/2 * (1+z^-1) / (1- exp(-5*Ts)*z^-1)
+[num,den] = tfdata(MPZ_Dz)
+MPZ_Dz = tf(num,den,Ts,"Variable","z^-1")
+tustin_Dz = c2d(Dc,Ts,'tustin');
+w = 0:Fs/1000*2*pi:300
+[mag,phase,w]=bode(Dc,w);hold on;
+[mag,phase,w]=reshape_data(mag,phase,w);
+[zoh_mag,zoh_phase,zoh_w]=bode(zoh_Dz,w);hold on;
+[zoh_mag,zoh_phase,zoh_w]=reshape_data(zoh_mag,zoh_phase,zoh_w);
+[matched_mag,matched_phase,matched_w]=bode(matched_Dz,w);hold on;
+[matched_mag,matched_phase,matched_w]=reshape_data(matched_mag,matched_phase,matched_w);
+[tustin_mag,tustin_phase,tustin_w]=bode(tustin_Dz,w);hold on;
+[tustin_mag,tustin_phase,tustin_w]=reshape_data(tustin_mag,tustin_phase,tustin_w);
+[MPZ_mag,MPZ_phase,MPZ_w]=bode(MPZ_Dz,w);hold on;
+[MPZ_mag,MPZ_phase,MPZ_w]=reshape_data(MPZ_mag,MPZ_phase,MPZ_w);
+plot(w,mag);
+close all;
+figure(1)
+plot([w, -w],[mag,mag],'r');
+hold on;
+grid on;
+plot([zoh_w,-zoh_w],[zoh_mag,zoh_mag],'b',"LineWidth",2);
+plot([matched_w,-matched_w],[matched_mag,matched_mag],'g');
+plot([tustin_w,-tustin_w],[tustin_mag,tustin_mag],'y');
+xline([-94.2478 -94.2478/2  94.2478/2 94.2478])
+
+figure(2)
+loglog([w, -w],[mag,mag],'r');
+hold on;
+grid on;
+loglog([zoh_w,-zoh_w],[zoh_mag,zoh_mag],'b--');
+loglog([matched_w,-matched_w],[matched_mag,matched_mag],'');
+loglog([tustin_w,-tustin_w],[tustin_mag,tustin_mag],'b--');
+loglog([MPZ_w,-MPZ_w],[MPZ_mag,MPZ_mag],'r.');
+
+
+xline([-94.2478 -94.2478/2  94.2478/2 94.2478])
+axis([0 300 1/100 1])
+function [mag,phase,w]=reshape_data(mag,phase,w)
+    mag = reshape(mag,[],1);
+    phase = reshape(phase,[],1);
+    w = reshape(w,[],1);
+end
